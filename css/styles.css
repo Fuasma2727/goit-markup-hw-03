@@ -11,11 +11,10 @@
 .logo {
   color: var(--logo-color);
   letter-spacing: 0.03em;
-  position: absolute;
-  width: 145px;
+  /*width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  top: 24px;*/
   font-size: 26px;
   font-weight: 700;
   font-family: 'raleway', sans-serif;
@@ -34,8 +33,6 @@
   left: 453px;
   top: 32;
   color: var(--logo-color);
-  font-weight: 500;
-  font-size: 14px;
 }
 
 .links:hover {
@@ -83,7 +80,6 @@
 .personas {
   list-style: none;
   display: flex;
-  width: 1600px;
   padding-left: 0;
   justify-content: center;
   gap: 25px;
@@ -97,14 +93,12 @@
   font-size: 36px;
   line-height: 42px;
   display: flex;
-  width: 1600px;
   margin-right: 0;
   justify-content: center;
   margin-top: 94px;
 }
 
 .footer {
-  width: 1600px;
   height: 252px;
   left: 0px;
   top: 2158px;
@@ -133,10 +127,12 @@
 .contactos-inf {
   list-style: none;
   padding-left: 0;
+  margin-left: 0;
+  justify-content: left;
 }
 
 .contacto-inf {
-  width: 231px;
+  display: flex;
   height: 21px;
   font-family: 'Roboto';
   letter-spacing: 0.03em;
@@ -167,6 +163,7 @@
   justify-content: center;
   margin-top: 0;
   gap: 8px;
+  padding-left: 0;
 }
 .boton-portafolio {
   text-align: center;
@@ -195,34 +192,33 @@
 
 .imagenes-portafolio {
   list-style: none;
-  width: 1600px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
-  padding-left: 215;
   margin-top: 0;
+  padding-left: 0;
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
   height: 80px;
-  width: 1600px;
+  /*width: 1600px;*/
 }
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  width: 734px;
+  height: 80px;
+  gap: 90px;
 }
 .menu {
   display: flex;
   align-items: right;
   gap: 50px;
   font-family: 'Roboto';
-  top: 32px;
+  /*top: 32px;*/
   list-style: none;
-  right: 0;
 }
 
 .contact-inf {
@@ -233,25 +229,22 @@
   font-style: normal;
   gap: 50px;
   align-items: center;
-  padding-right: 219px;
-  width: 866px;
 }
 
 .titulo {
   display: flex;
   flex-direction: column;
-  width: 1600px;
+  align-items: center;
+  justify-content: center;
   height: 600px;
   background: var(--footer-color);
 }
 .h1 {
+  margin-top: 0 auto;
   width: 696px;
-  margin-left: 452px;
-  margin-top: 200px;
 }
 
 .botonh1 {
-  margin-left: 670px;
   gap: 30px;
   background: var(--logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -265,7 +258,6 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  width: 1600px;
   padding-left: 0;
   align-items: top;
   margin-top: 95px;
@@ -277,7 +269,6 @@
   justify-content: center;
   gap: 30px;
   padding-left: 0;
-  width: 1600px;
   list-style: none;
 }
 
@@ -318,10 +309,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  width: 250px;
-  height: 300px;
   margin-top: 60px;
-  margin-left: 215px;
 }
 
 .h3-footer {
@@ -334,11 +322,9 @@
   border-color: #ececec;
   display: flex;
   height: 80px;
-  width: 1600px;
 }
 
 .marco-botones-portafolio {
-  width: 1600px;
   height: 194px;
   padding-top: 0;
 }
@@ -366,4 +352,9 @@ h4 {
   padding-top: 4px;
   padding-left: 24px;
   color: #757575;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
 }
